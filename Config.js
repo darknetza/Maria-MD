@@ -4,12 +4,12 @@ require('dotenv').config();
 
 //contact details
 global.ownernumber = [ process.env.OWNER_NUMBER || "263713571083"],
-global.ownername = process.env.OWNER_NAME || "💙𓆩‎✘AʏᴜSʜ✘𓆪_✰",
+global.ownername = process.env.OWNER_NAME || "𝑫𝒂𝒓𝒌𝒏𝒆𝒕𝒁𝒂",
 global.ytname = "IG: da_rknetzw"
 global.socialm = "GitHub: darknetza"
 global.location = "Zimbabwe"
 
-global.botname = process.env.BOTNAME || "𝐌𝐀𝐑𝐈𝐀-𝐌𝐃",//name of the bot
+global.botname = process.env.BOTNAME || "𝐌𝐀𝐑𝐈𝐀-𝐌𝐃 𝒃𝒚 𝑫𝒂𝒓𝒌𝒏𝒆𝒕",//name of the bot
 
 //sticker details
 global.stickername = process.env.STICKER || "💙𓆩‎✘AʏᴜSʜ✘𓆪_✰",
@@ -23,7 +23,7 @@ global.wm = "Ayush botz inc."
 global.link = 'https://whatsapp.com/channel/0029VaImo5ZG3R3qjKOdyr1I'
 
 //custom prefix
-global.prefa = process.env.PREFIX || "!",
+global.prefa = process.env.PREFIX || "!,#,$,-,*",
 
 //false=disable and true=enable
 global.welcome = process.env.WELCOME || "true", //auto welcome
@@ -56,7 +56,7 @@ ownername: global.ownername,
 sessionId: process.env.id,
 AUTO_BLOCK : process.env.PM_BLOCKER,
 STATUS_SAVER : "true",
-ANTI_BOT:"true",
+ANTI_BOT:"false",
 }
 
 
